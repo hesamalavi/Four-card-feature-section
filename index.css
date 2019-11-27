@@ -128,3 +128,48 @@ h3 {
 
 
 }
+
+ /* Tablet screen size adjustments (850px) */
+
+
+}
+
+@media screen and (max-width: 850px) {
+ .container {
+  grid-template: repeat(2, 1fr)/ repeat(2, 1fr);
+
+  grid-template-areas:
+
+   "t s"
+   "k c"
+
+  ;
+
+ }
+
+ header {
+  margin: 40px 20px 10px 20px;
+  font-size: 0.7em;
+ }
+
+ header>p {
+  margin: 0 20px 10px 20px;
+  font-size: 1.3em;
+ }
+
+ h3 {
+  margin: 30px 20px -10px 20px;
+ }
+
+ div>p {
+  margin: 0 30px -10px 20px;
+
+ }
+
+ .container>div {
+  margin: 0 20px 0 20px;
+
+ }
+
+
+}
