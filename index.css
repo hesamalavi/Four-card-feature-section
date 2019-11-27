@@ -86,9 +86,9 @@ h3 {
  border-radius: 4px 4px 0 0;
 }
 
-/* Mobile screen size adjustments (375px) */
+/* Mobile screen size adjustments (600px) */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
  .container {
   grid-template: repeat(4, 1fr)/ repeat(1, 1fr);
 
